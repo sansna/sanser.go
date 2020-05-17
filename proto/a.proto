@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+package proto;
+
+message C {
+	optional int64 A = 1;
+	optional int64 B = 2;
+}
